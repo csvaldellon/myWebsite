@@ -2,104 +2,16 @@
 <html>
 <head>
   <title>My Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-    
-    h1 {
-      text-align: center;
-    }
-    
-    .section {
-      margin-bottom: 30px;
-    }
-    
-    .section h2 {
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 5px;
-    }
-    
-    .section ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    
-    .section li {
-      margin-bottom: 10px;
-    }
-    
-    .section li:last-child {
-      margin-bottom: 0;
-    }
-    
-    .section .subheading {
-      font-weight: bold;
-    }
-  </style>
 </head>
 <body>
-  <h1>Carl Terence Valdellon</h1>
-  
-  <div class="section">
-    <h2>About Me</h2>
-    <p>
-      Carl Terence Valdellon is a Software Engineer, specializing in Big Data Engineering and Artificial Intelligence, with over three years of experience in Python and SQL
-    </p>
-  </div>
-  
-  <div class="section">
-    <h2>Education</h2>
-    <ul>
-      <li>
-        <span class="subheading">Bachelor of Science in Physics</span> - University of the Philippines Diliman, Summa Cum Laude
-      </li>
-      <!-- Add more education details if needed -->
-    </ul>
-  </div>
-  
-  <div class="section">
-    <h2>Experience</h2>
-    <ul>
-      <li>
-        <span class="subheading">Job Title</span> - Company Name, Year to Year
-        <ul>
-          <li>Description of your responsibilities and achievements.</li>
-        </ul>
-      </li>
-      <!-- Add more experience details if needed -->
-    </ul>
-  </div>
-  
-  <div class="section">
-    <h2>Skills</h2>
-    <ul>
-      <li>
-        <span class="subheading">Skill 1</span>
-      </li>
-      <li>
-        <span class="subheading">Skill 2</span>
-      </li>
-      <!-- Add more skills if needed -->
-    </ul>
-  </div>
-  
-  <div class="section">
-    <h2>Contact</h2>
-    <ul>
-      <li>
-        <span class="subheading">Email:</span> your.email@example.com
-      </li>
-      <li>
-        <span class="subheading">Phone:</span> +1 123 456 7890
-      </li>
-      <li>
-        <span class="subheading">Website:</span> www.example.com
-      </li>
-      <!-- Add more contact details if needed -->
-    </ul>
-  </div>
+  <div id="root"></div>
+
+  <script src="main.js"></script>
+  <script>
+    ReactDOM.render(
+      React.createElement(Portfolio.default),
+      document.getElementById('root')
+    );
+  </script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+- title: Job Title 1
+  company: Company Name 1
+  years: Year to Year
+  details:
+    - Description of responsibilities and achievements for Job Title 1
+    - Another detail for Job Title 1
+- title: Job Title 2
+  company: Company Name 2
+  years: Year to Year
+  details:
+    - Description of responsibilities and achievements for Job Title 2
+    - Another detail for Job Title 2
+    - Yet another detail for Job Title 2
+# Add more experience objects if needed
